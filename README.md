@@ -26,3 +26,59 @@
     </DIV>
 </body>
 </html>
+
+
+
+parte css
+body {
+    background-color: #f0f0f0;
+    font-family: 'Courier New', Courier, monospace; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.caixa {
+    background-color: #5a337a; 
+    padding: 50px; 
+    border: 1px solid #a13a3a; 
+    border-radius: 8px; 
+    text-align: center; 
+}
+
+a {
+    color: #2b8da5; 
+    text-decoration: none; 
+}
+a:hover {
+    text-decoration: underline; 
+}
+
+form {
+    margin-top: 20px; 
+}
+
+input[type="text"],
+select {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border: 1px solid #4caf50; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+}
+
+input[type="submit"] {
+    background-color: #4caf50; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+input[type="submit"]:hover {
+    background-color: #acd833; 
+}
